@@ -1,4 +1,4 @@
-module github.com/rpahli/jugsaxony
+module github.com/rpahli/jugsaxony-operator
 
 go 1.18
 

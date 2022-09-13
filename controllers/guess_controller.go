@@ -25,7 +25,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	jugsaxonyv1beta1 "github.com/rpahli/jugsaxony/api/v1beta1"
+	jugsaxonyv1beta1 "github.com/rpahli/jugsaxony-operator/api/v1beta1"
 )
 
 // GuessReconciler reconciles a Guess object

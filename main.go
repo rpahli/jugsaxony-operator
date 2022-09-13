@@ -31,8 +31,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	demov1beta1 "github.com/rpahli/jugsaxony/api/v1beta1"
-	"github.com/rpahli/jugsaxony/controllers"
+	demov1beta1 "github.com/rpahli/jugsaxony-operator/api/v1beta1"
+	"github.com/rpahli/jugsaxony-operator/controllers"
 	//+kubebuilder:scaffold:imports
 )
 

@@ -93,7 +93,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
+## Init
+
 ```bash
-kubebuilder init --domain jugsaxony.org --repo github.com/rpahli/jugsaxony
+kubebuilder init --domain jugsaxony.org --repo github.com/rpahli/jugsaxony-operator
 kubebuilder create api --group demo --version v1beta1 --kind Game
 ```

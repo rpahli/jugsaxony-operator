@@ -2,7 +2,7 @@ domain: jugsaxony.org
 layout:
 - go.kubebuilder.io/v3
 projectName: jugsaxony
-repo: github.com/rpahli/jugsaxony
+repo: github.com/rpahli/jugsaxony-operator
 resources:
 - api:
     crdVersion: v1
@@ -11,7 +11,7 @@ resources:
   domain: jugsaxony.org
   group: demo
   kind: Game
-  path: github.com/rpahli/jugsaxony/api/v1beta1
+  path: github.com/rpahli/jugsaxony-operator/api/v1beta1
   version: v1beta1
 - api:
     crdVersion: v1
@@ -20,6 +20,6 @@ resources:
   domain: jugsaxony.org
   group: demo
   kind: Guess
-  path: github.com/rpahli/jugsaxony/api/v1beta1
+  path: github.com/rpahli/jugsaxony-operator/api/v1beta1
   version: v1beta1
 version: "3"
