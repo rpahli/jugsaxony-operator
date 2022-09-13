@@ -1,0 +1,6 @@
+apiVersion: demo.jugsaxony.org/v1beta1
+kind: Game
+metadata:
+  name: game-sample
+spec:
+  # TODO(user): Add fields here

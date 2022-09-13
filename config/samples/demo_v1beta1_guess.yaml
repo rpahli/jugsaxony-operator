@@ -1,0 +1,6 @@
+apiVersion: demo.jugsaxony.org/v1beta1
+kind: Guess
+metadata:
+  name: guess-sample
+spec:
+  # TODO(user): Add fields here

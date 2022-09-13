@@ -1,0 +1,8 @@
+apiVersion: demo.jugsaxony.org/v1beta1
+kind: Guess
+metadata:
+  name: first-a
+spec:
+  # Add fields here
+  game: first
+  guess: "a"

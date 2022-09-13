@@ -1,0 +1,6 @@
+apiVersion: demo.jugsaxony.org/v1beta1
+kind: Game
+metadata:
+  name: first
+spec:
+  numberOfGuessesOverride: 5
